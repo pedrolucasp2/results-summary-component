@@ -1,0 +1,81 @@
+
+@media (max-width:600px){
+  
+   
+}
+*{  font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   
+}
+.container{
+    max-width: 1440px;
+    font-size: 18px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.your_result{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    padding: 0.7rem;
+    height: 27.0rem;
+    width:18.0rem ;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+}
+
+.result_background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 10.0rem;
+    height: 10.0rem;
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+   
+}
+.summary{
+    background: whitesmoke;
+    
+    border-radius: 10px;
+    
+
+}
+.your_result_text{
+    font-size: 1.5rem;
+    color:  hsl(221, 100%, 96%);
+    opacity: 75%;
+}
+.result_background h1{
+    font-weight: 800;
+    font-size: 4.0rem;
+   color: hsl(0, 0%, 100%);
+}
+.all_porcent_number{
+    font-size: 1.0rem;
+    color:  hsl(221, 100%, 96%);
+    opacity: 50%;
+
+}
+.great{
+    font-size: 2.0rem;
+   color: hsl(0, 0%, 100%);
+   font-weight: 800;
+
+}
+.information{
+    font-size: 1.2rem;
+    color:  hsl(221, 100%, 96%);
+    opacity: 70%;
+    text-align: center;
+}
