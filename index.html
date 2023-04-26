@@ -1,57 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  
-  <title>Frontend Mentor | Results summary component</title>
-</head>
-<body>
-  <div class="container">
-    
-  <div class="your_result"> 
-    <p class="your_result_text"> Your Result</p>
-    <div class="result_background">
-    <h1>76</h1>
-    <p class="all_porcent_number">of 100</p>
-  </div>
-     
-    <p class="great">Great</p>
-    <P class="information"> You scored higher than 65% of the people who have taken these tests.</P>
-  </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
 
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="your_result">
+        <p class="your_result_text">Your Result</p>
+        <div class="result_background">
+          <h1>76</h1>
+          <p class="all_porcent_number">of 100</p>
+        </div>
 
-  
-    <div class="summary_container">
-      <h1 class="summary_title">Summary</h1>
-
-      <div>Reaction
-        <p></p>80 / 100
+        <p class="great">Great</p>
+        <p class="information">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
       </div>
 
-      <div>Memory
-        92 / 100
-        <p></p>
-      </div>
+      <div class="summary_container">
+        <h1 class="summary_title">Summary</h1>
 
-      <div>Verbal
-        61 / 100
-        <p></p>
+        <ul class="list">
+          <li class="list_item red">
+            <div class="list_item_title">
+              <img src="/assets/images/icon-reaction.svg" />
+              <h3>Reaction</h3>
+            </div>
+            <div class="list_item_number">
+              <p class="number"><b>80</b>/100</p>
+            </div>
+          </li>
+          <li class="list_item yellow">
+            <div class="list_item_title">
+              <img src="/assets/images/icon-memory.svg" />
+              <h3>Memory</h3>
+            </div>
+            <div class="list_item_number">
+              <p class="number"><b>92</b>/100</p>
+            </div>
+          </li>
+          <li class="list_item green">
+            <div class="list_item_title">
+              <img src="/assets/images/icon-verbal.svg" />
+              <h3>Verbal</h3>
+            </div>
+            <div class="list_item_number">
+              <p class="number"><b>61</b>/100</p>
+            </div>
+          </li>
+          <li class="list_item blue">
+            <div class="list_item_title">
+              <img src="/assets/images/icon-visual.svg" />
+              <h3>Visual</h3>
+            </div>
+            <div class="list_item_number">
+              <p class="number"><b>72</b>/100</p>
+            </div>
+          </li>
+        </ul>
+        <button>Continue</button>
       </div>
-
-      <div>Visual
-        72 / 100
-        <p></p>
     </div>
-      Continue
-    </div>
-</div>
-
-  
-  
-</body>
+  </body>
 </html>
