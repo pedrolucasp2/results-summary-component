@@ -5,6 +5,7 @@
   padding: 0;
 }
 
+
 .container {
   
   font-size: 18px;
@@ -167,16 +168,15 @@ button:hover{
 @media (max-width:760px){
   .container{
     flex-direction: column;
-    margin-top: 0;
+    justify-content: flex-start;
     background: white;
+    
+
   }
   .your_result{
     width: 100%;
     border-radius: 0 0 45px 45px;
   
-  }
-  .your_result_text{
-
   }
   .information{
     font-size: 1.0rem;
