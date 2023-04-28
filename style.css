@@ -183,15 +183,13 @@ button:hover{
     margin: 1.0rem;
     
   }
-  .summary_container{
-    
-   
-   
+ 
+  button{
+    width: 18rem;
+    height: 3.5rem;
+    font-size: 1.1rem;
+    margin-top: 2.5rem;
   }
-  .summary_title{
-   
-  }
-  
   
 }
 
